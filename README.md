@@ -84,3 +84,13 @@ Once everything is correctly set up (more like downloaded), you can check with `
 ```
 
 > ⚠️ If you run into issues with Android toolchain, make sure to deal with `android license agreement`.
+
+# Creating a flutter app
+
+Creating an app can be done using the `flutter` cli tool. 
+
+```bash
+$ flutter create app
+```
+
+This will create a directory that conatains files that are needed to run the app.
