@@ -94,3 +94,24 @@ $ flutter create app
 ```
 
 This will create a directory that conatains files that are needed to run the app.
+
+## diving into the project structure
+
+![structure](img/folder_structure.png)
+
+- `lib` : contains `main.dart` file.
+  + contains `dart` files, because we are writing in `dart` for `flutter`
+- `android`,`ios`,`macos`, etc. : these are platform specifc codes, usually maintained by `flutter`. It becomes more important when actualyl _deploying_.
+- `build` : temp build files
+- `test` : test code location
+- `analysis_options.yaml` : it has linters, styles.. 
+- `pubspec.yaml` : can be used to add third-party packages. 
+
+# Material Design
+
+`flutter` uses [`material design`](https://m2.material.io/design) by default. (by google)
+
+
+### notes
+
+https://github.com/academind/flutter-complete-guide-course-resources
