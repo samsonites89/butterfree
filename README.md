@@ -114,4 +114,6 @@ This will create a directory that conatains files that are needed to run the app
 
 ### notes
 
-https://github.com/academind/flutter-complete-guide-course-resources
+- course material: https://github.com/academind/flutter-complete-guide-course-resources
+
+- widgets: https://docs.flutter.dev/ui/widgets
