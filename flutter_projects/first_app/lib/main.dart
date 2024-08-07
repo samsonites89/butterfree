@@ -9,7 +9,7 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: GradientBackground(),
+        body: GradientBackground.purple(),
       ),
     ),
   ); // this is by flutter, so it needs to be imported (format document)
