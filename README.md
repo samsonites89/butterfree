@@ -112,8 +112,30 @@ This will create a directory that conatains files that are needed to run the app
 `flutter` uses [`material design`](https://m2.material.io/design) by default. (by google)
 
 
+## state
+
+### stateful widgets
+
+- do not manage any internal data
+- only updates when parent is updated (re-render)
+
+> should be your default: use as often as possible
+
+### stateless widgets
+- manages states internally
+- when state changes, widget is re-rendered
+
+> use when you have changing data that should cause UI updates
+
+
+
+---
+
 ### notes
 
 - course material: https://github.com/academind/flutter-complete-guide-course-resources
 
 - widgets: https://docs.flutter.dev/ui/widgets
+
+
+

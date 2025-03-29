@@ -14,3 +14,11 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## dice project
+
+some of the things that we picked up here
+- variable types
+- using `const` in order to ensure that memory is being allocated efficiently
+- widgets
+- wigets combination
